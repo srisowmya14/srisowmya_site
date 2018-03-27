@@ -1,0 +1,81 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, intitial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<!-- printing the Heading -->
+        
+	<style>
+                #largeimage
+               {
+			position: absolute;
+                        top: 245px;
+			left: 800px;
+			width: 400;
+			height: 267;
+		}
+
+		body 
+                {
+			background-color: black;
+			font-family: Kristen ITC;
+			color: grey;
+		}
+
+		#name
+                {
+			font-size: 18;
+			text-align: Center;
+		}
+		
+	</style>		
+
+
+</head>
+<body>
+<header>
+<a href="index.html" class="home">Home</a>
+</header>
+<h2 style="font-size:30;color:#385BC1;">My Hobbies include:</h2> 
+        <script>
+	function Enlarge(imageName)
+        {
+	document.getElementById("largeimage").innerHTML = "<img src= "+imageName+">";
+	}
+	</script>
+	<!-- Creating table and inserting rows of images in it -->
+        <br>
+        <p id="largeimage"> <img name="Driving" src="Driving.jpg" ></p>
+		<table>	
+			<tr> 
+			<td><p id="name">Reading</p>
+			<img width=200 height=140 name="Reading" src="Reading.jpg"  onClick="Enlarge('Reading.jpg');">
+			<td><p id="name">Traveling</p>
+			<img width=200 height=140 name="Traveling" src="Traveling.jpg" onClick="Enlarge('Traveling.jpg');" >
+			<td><p id="name">Zumba</p>
+			<img width=200 height=140 name="Zumba" src="Zumba.jpg" onClick="Enlarge('Zumba.jpg');">
+			</tr>
+		
+			<tr>
+			<td><p id="name">Photograpy</p>
+			<img width=200 height=140 name="Photography" src="Photography.jpg" onClick="Enlarge('Photography.jpg');">
+			<td><p id="name">Driving</p>
+			<img width=200 height=140 name="Driving" src="Driving.jpg" onClick="Enlarge('Driving.jpg');">
+			<td><p id="name">Writing</p>
+			<img width=200 height=140 name="Writing" src="Writing.jpg" onClick="Enlarge('Writing.jpg');" >
+			</tr>		
+			
+                         <tr>	
+			<td><p id="name">Drawing</p>
+			<img width=200 height=140 name="Drawing" src="Drawing.jpg" onClick="Enlarge('Drawing.jpg');">
+			<td><p id="name">Diy products</p>
+			<img width=200 height=140 name="Diyproducts" src="Diy.jpg" onClick="Enlarge('Diy.jpg');">
+			<td><p id="name">Swimming</p>
+			<img width=200 height=140 name="Swimming" src="Swimming.jpg" onClick="Enlarge('Swimming.jpg');">
+			</tr>
+		</table>
+        <br>
+         <!-- printing the last text -->
+	<p>click a thumbnail image to see it enlarged</p>
+</body>
+</html>

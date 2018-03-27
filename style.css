@@ -1,0 +1,138 @@
+*{
+text-decoration: none;
+}
+
+body
+{
+background-color : black;
+}
+
+.introme{
+font-color : #E35A3D;
+}
+
+header {
+ background-color: black;
+ width: 100%;
+ height: 100px
+}
+
+header .heading {
+font-family: Kristen ITC;
+font-size:32px;
+color:#DBC71E;
+display: block;
+margin: 0 auto;
+text-align: center;
+padding: 15px 0;
+}
+
+header .home {
+font-family: Kristen ITC;
+font-size:26px;
+color: #DBC71E;
+display: block;
+margin: 0 auto;
+text-align: right;
+padding: 15px 0;
+}
+
+.intro {
+font-family: Kristen ITC;
+font-size:26px;
+color: grey;
+}
+
+section .change_img {
+padding-left:270px;
+}
+
+
+
+.boxes1 {
+position: absolute;
+margin: 10px 10px 0;
+width: calc(25% - 220px);
+height: 145px;
+background-color: grey;
+top:765px;
+left:660px;
+}
+
+.boxes3 {
+position: absolute;
+margin: 10px 10px 0;
+width: calc(25% - 220px);
+height: 145px;
+background-color: grey;
+top:765px;
+left:1260px;
+}
+
+.boxes2 {
+position: absolute;
+margin: 10px 10px 0;
+width: calc(25% - 220px);
+height: 145px;
+background-color: grey;
+top:765px;
+left:960px;
+}
+
+.boxes4 {
+position: absolute;
+margin: 10px 10px 0;
+width: calc(25% - 220px);
+height: 145px;
+background-color: grey;
+top:765px;
+left:355px;
+}
+
+.boxes1 h3 {
+font-family: Kristen ITC;
+font-size:26px;
+color: Black;
+display: block;
+margin: 0 auto;
+text-align: center;
+line-height: 100px;
+padding: 26px 0;
+}
+
+.boxes3 h3 {
+font-family: Kristen ITC;
+font-size:26px;
+color: Black;
+display: block;
+margin: 0 auto;
+text-align: center;
+line-height: 100px;
+padding: 26px 0;
+}
+
+.boxes2 h3 {
+font-family: Kristen ITC;
+font-size:26px;
+color: Black;
+display: block;
+margin: 0 auto;
+text-align: center;
+line-height: 100px;
+padding: 26px 0;
+}
+
+.boxes4 h3 {
+font-family: Kristen ITC;
+font-size:26px;
+color: Black;
+display: block;
+margin: 0 auto;
+text-align: center;
+line-height: 100px;
+padding: 26px 0;
+}
+
+
+
+
